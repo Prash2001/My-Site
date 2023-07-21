@@ -12,7 +12,7 @@ h1 {
     color:  #66BFBF;
     font-size: 5rem;
 }
-h2{
+.specific{
     color:  #66BFBF;
     position: relative;
     bottom: 30px;
@@ -47,9 +47,10 @@ a:hover{
 .bottom-container {
     background-color:  #66BFBF;
     position: relative;
-    top: 410px;
+    top: 710px;
     padding: 30px;
     color: 40514E;
+    font-size: large;
 }
 .pro{
     text-decoration: underline;
@@ -72,11 +73,17 @@ img{
     float: left;
     width: 25%;
     margin-right: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 6%;
+    
 }
 .computer{
     width: 25%;
     float: right;
     margin-left: 30px;
+    margin-top: 5%;
+    
 }
 .skill-row{
 width: 50%;
@@ -150,7 +157,7 @@ hr{
 }
 .contact-me{
     position: relative;
-    top: 330px;
+    top: 560px;
     width: 50%;
     left: 25%;
 
@@ -162,6 +169,18 @@ hr{
 .second-hr{
     position: relative;
     top: 265px;
+}
+.third-hr{
+    position: relative;
+    top: 365px;
+}
+.fourth-hr{
+    position: relative;
+    top: 420px;
+}
+.fifth-hr{
+    position: relative;
+    top: 520px;
 }
 .contact-extra{
     position: relative;
@@ -185,4 +204,61 @@ p{
 .contact-p{
     width: 80%;
     margin: auto;
+}
+.skill{
+    overflow: hidden;
+}
+.child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.education{
+    position: relative;
+    top: 360px;
+    color: black;
+}
+.hsc{
+    margin: 0;
+}
+.innerEdu{
+    text-align: start;
+    margin-left: 250px;
+}
+.info{
+    color: rgb(46, 46, 46);
+}
+.school{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 1%;
+}
+.college{
+    float: left;
+    width: 35%;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 6%;
+}
+.university{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 8%;
+}
+.experience{
+    position: relative;
+    top: 500px;
+    color: black;
+}
+.mindstix{
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+    margin-top: 6%;
 }
